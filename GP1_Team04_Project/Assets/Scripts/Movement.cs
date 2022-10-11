@@ -15,11 +15,11 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            gameObject.transform.position += new Vector3(0, 0, 3);
+            gameObject.transform.position += new Vector3(3, 0, 0);
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            gameObject.transform.position += new Vector3(0, 0, -3);
+            gameObject.transform.position += new Vector3(-3, 0, 0);
         }
     } 
 }
